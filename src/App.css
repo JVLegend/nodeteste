@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: #1d1818;
+}
+
+.overview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #000000;
+    height: 90vh;
+}
+
+.app-content {
+    padding-left: 250px; /* Ajuste este valor de acordo com a largura da sua sidebar */
+  }
+  
