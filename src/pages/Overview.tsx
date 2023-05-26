@@ -1,25 +1,25 @@
 import { FC } from 'react';
 
-export const Overview: FC = () => {
-    return <div className="overview">Overview</div>;
+export const Inicio: FC = () => {
+    return <div className="inicio">Inicio</div>;
 };
 
 export const Users: FC = () => {
-    return <div className="overview">Users</div>;
+    return <div className="inicio">Users</div>;
 };
 
 export const Revenue: FC = () => {
-    return <div className="overview">Revenue</div>;
+    return <div className="inicio">Revenue</div>;
 };
 
-export const Order: FC = () => {
-    return <div className="overview">Order</div>;
+export const Campanha: FC = () => {
+    return <div className="inicio">Campanha</div>;
 };
 
-export const History: FC = () => {
-    return <div className="overview">History</div>;
+export const LandingPages: FC = () => {
+    return <div className="inicio">Landing Page</div>;
 };
 
 export const Configurations: FC = () => {
-    return <div className="overview">Configurations</div>;
+    return <div className="inicio">Configurations</div>;
 };

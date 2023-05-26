@@ -6,7 +6,7 @@
 
 html,
 body {
-    color: #fff;
+    color: #1d1818;
 }
 
 .overview {
@@ -17,3 +17,8 @@ body {
     color: #000000;
     height: 90vh;
 }
+
+.app-content {
+    padding-left: 250px; /* Ajuste este valor de acordo com a largura da sua sidebar */
+  }
+  

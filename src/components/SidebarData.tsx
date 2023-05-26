@@ -8,35 +8,37 @@ import {
 } from 'react-icons/ai';
 import { FaCog, FaOpencart } from 'react-icons/fa';
 import { SidebarItem } from '../models/SidebarItem';
+import Users from '../pages/Users';
+
 
 export const SidebarData: SidebarItem[] = [
     {
-        title: 'Overview',
-        path: '/overview',
+        title: 'Inicio',
+        path: '/inicio',
         icon: <AiOutlineHome />,
         iconClosed: <AiFillCaretDown />,
         iconOpened: <AiFillCaretUp />,
         subnav: [
             {
                 title: 'Users',
-                path: '/overview/users',
+                path: '/inicio/users',
                 icon: <AiOutlineUser />
             },
             {
                 title: 'Revenue',
-                path: '/overview/revenue',
+                path: '/inicio/revenue',
                 icon: <AiOutlineMoneyCollect />
             }
         ]
     },
     {
-        title: 'Order',
-        path: '/order',
+        title: 'Campanha',
+        path: '/campanha',
         icon: <FaOpencart />
     },
     {
-        title: 'History',
-        path: '/history',
+        title: 'Landing Pages',
+        path: '/landingpages',
         icon: <AiOutlineHistory />
     },
     {
